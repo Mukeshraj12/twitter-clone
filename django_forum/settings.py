@@ -33,7 +33,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 CORS_ORIGIN_ALLOW_ALL=True
 CSRF_TRUSTED_ORIGINS = [
-    'http://0.0.0.0:3000',
+    'http://0.0.0.0:3000','https://2f629f14-0080-457b-b693-bbf1ee8a9502-00-amdl00i7o5wz.sisko.replit.dev/',
 ]
 
 # Application definition
