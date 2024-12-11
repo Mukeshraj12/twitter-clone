@@ -18,13 +18,14 @@ body{
 }
 .content .home-col{
     display: flex;
+    align-items: center;
     gap: 2%;
     padding-left: 2%;
     border-bottom: 1px solid #CCC;
 }
 .content h3{
     padding-left: 30px;
-    font-family: sans-serif;
+    font-family: cursive;
 }
 .content .image{
     width: 50px;
@@ -56,19 +57,20 @@ post_form
     padding: 10px;
     border: 1px solid #CCC;
 }
-.post_form .name{
-    background-color: rgb(196, 250, 233);
-    border:none;
-    border-radius: 6px;
+
+.post_form .name {
+    background-color: rgb(150 202 234);
+    border: none;
+    border-radius: 2px;
 }
-.post_form .button{
-    color:white;
+.post_form .button {
+    color: white;
     font-weight: bold;
-    font-family: sans-serif;
-    font-size:15px;
-    width:80px;
-    border-radius: 7px;
-    background-color: rgb(29, 161, 242);
+    font-family: cursive;
+    font-size: 15px;
+    width: 80px;
+    border-radius: 3px;
+    background-color: rgb(60 171 240);
     text-align: center;
 }
 .post_form .submitt {
@@ -98,6 +100,7 @@ post_form
 .post_form textarea{
     width: 70%;
     padding: 0% 27% 10% 0%;
+    border: 1px solid #CCC;
 }
 /*
 posts
